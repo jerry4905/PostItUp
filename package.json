@@ -1,0 +1,31 @@
+{
+  "name": "PostItUp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerry4905/PostItUp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerry4905/PostItUp/issues"
+  },
+  "homepage": "https://github.com/jerry4905/PostItUp#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express-sessions": "^1.0.6",
+    "handlebars": "^4.7.7",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5"
+  }
+}
