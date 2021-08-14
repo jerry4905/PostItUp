@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color:#868686;
   }
   
   body, html {
@@ -10,19 +11,19 @@
     color: #333;
   }
   
-  a {
+  a, #logout {
     text-decoration: none;
-    color: #225ca3;
+    color: #101113;
     font-weight: bold;
     transition: color .1s;
   }
   
-  a:hover {
-    color: #3486eb;
+  a:hover, #logout:hover {
+    color: #34eb80;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #22a358;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #49eb34;
   }
   
   .post-list {
@@ -49,7 +50,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #34eb34;
   }
   
   textarea {
